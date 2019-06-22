@@ -16,7 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  *
- * @author hp
+ * @author Kaleb Teshale  Soft.Ext ATE/8173/09
  */
 public class GmailAutoLogin {
 
