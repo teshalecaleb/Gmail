@@ -38,7 +38,7 @@ public class GmailAutoLogin {
         WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
         WebDriverWait wait = new WebDriverWait(driver, 18);
         wait.until(ExpectedConditions.elementToBeClickable(password));
-        password.sendKeys("Caleb@6085");
+        password.sendKeys("password");
         driver.findElement(By.id("passwordNext")).click();
         List<WebElement> unreademail = driver.findElements(By.className("zE"));
         System.out.println("Total No. of Unread Mails: " + unreademail.size());
