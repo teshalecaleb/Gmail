@@ -33,7 +33,7 @@ public class GmailAutoLogin {
         System.out.println("Successfully opened the website localhost");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement email_phone = driver.findElement(By.xpath("//input[@id='identifierId']"));
-        email_phone.sendKeys("0920155363");
+        email_phone.sendKeys("0911458631");
         driver.findElement(By.id("identifierNext")).click();
         WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
         WebDriverWait wait = new WebDriverWait(driver, 18);
